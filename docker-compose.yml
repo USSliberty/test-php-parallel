@@ -1,0 +1,6 @@
+services:
+  php:
+    build: .
+    command: sleep infinity
+    volumes:
+      - .:/usr/src/myapp 
